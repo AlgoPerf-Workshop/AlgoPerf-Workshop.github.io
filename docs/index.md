@@ -28,7 +28,7 @@ The goal is to bring together academic and industry researchers and practitioner
 
 &nbsp;
 
-### Registration & Invitation
+### Interest & Registration
 
 If you are interested in attending the AlgoPerf Workshop, please register your interest via the [**AlgoPerf Workshop Interest Form**](https://docs.google.com/forms/d/e/1FAIpQLSd8zDCpaQHBiITW1wk1f4i-36GmanIZKScgiAdTr9m1ecfgPg/viewform).
 Due to limited capacity, registration is limited.
