@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<article class="post">
+
+	<header class="post-header">
+		<h1 class="post-title">{{ page.title | escape }}</h1>
+	</header>
+
+	{{ content }}
+
+	<div class="post-content">
+		{% assign days = site.schedule | map: "day" | uniq %}
+		{% for day in days %}
+		<h2>{{ day }}</h2>
+		<table style="width: 100%; margin-left: auto; margin-right: auto;">
+			{% for scheduleitem in site.schedule %}
+			{% if scheduleitem.day == day %}
+			<tr>
+				<td>
+					{{ scheduleitem.time }}
+				</td>
+				<td align="center">
+					<div class="col-xs-12">
+						<b>{{ scheduleitem.title }}</b>
+						<br>
+						{{scheduleitem.subtitle}}
+					</div>
+				</td>
+				<td>
+					<div class="people-name text-center">
+						<!-- scheduleitem name (link to webpage if provided) -->
+						{% if scheduleitem.webpage %}
+						<b><a href="{{ scheduleitem.webpage }}" target="_blank">{{ scheduleitem.speaker }}</a></b>
+						{% else %}
+						<b>{{ scheduleitem.speaker }}</b>
+						{% endif %}
+						<br>
+						<!-- scheduleitem affiliation (if provided) -->
+						{% if scheduleitem.affil_link %}
+						<a href="{{ scheduleitem.affil_link }}" target="_blank">{{ scheduleitem.affil }}</a>
+						{% else %}
+						{{ scheduleitem.affil }}
+						{% endif %}
+						<!-- Additional scheduleitem affiliation (if provided) -->
+						{% if scheduleitem.affil2_link %}
+						<br>
+						<a href="{{ scheduleitem.affil2_link }}" target="_blank">{{ scheduleitem.affil2 }}</a>
+						{% elsif scheduleitem.affil2 %}
+						<br>
+						{{ scheduleitem.affil2 }}
+						{% endif %}
+					</div>
+				</td>
+				<td style="text-align: center;">
+					<div class="col-xs-12">
+						{% if scheduleitem.img %}
+						{% if scheduleitem.img_link %}
+						<a href="{{ scheduleitem.img_link}}" target="_blank">
+							<img class="schedule-people-pic"
+								src="{{ scheduleitem.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+								target="_blank">
+						</a>
+						{% else %}
+						<img class="schedule-people-pic"
+							src="{{ scheduleitem.img | prepend: '/assets/img/speakers/' | prepend: site.baseurl | prepend: site.url }}"
+							target="_blank">
+						{% endif %}
+						{% else %}
+						{% endif %}
+					</div>
+				</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</table>
+		{% endfor %}
+	</div>
+
+</article>
