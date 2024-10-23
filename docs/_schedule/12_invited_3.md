@@ -2,7 +2,7 @@
 # Determines which item appears first on the schedule (lowest number (0) appears first)
 sequence_id: 4
 
-day: Tuesday, 12th
+day: Wednesday, 12th
 
 # Time of the event
 time: 13:30 - 14:15
