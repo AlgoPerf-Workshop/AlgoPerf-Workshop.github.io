@@ -15,7 +15,8 @@ layout: default
 		{% for day in days %}
 		<h2>{{ day }}</h2>
 		<table style="width: 100%; margin-left: auto; margin-right: auto;">
-			{% for scheduleitem in site.schedule %}
+			{% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
+			{% for scheduleitem in sorted_schedule %}
 			{% if scheduleitem.day == day %}
 			<tr>
 				<td>

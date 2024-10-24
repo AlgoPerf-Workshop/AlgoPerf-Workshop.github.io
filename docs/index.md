@@ -42,3 +42,9 @@ We will consider all registered interests and send out invitations according to 
   &emsp; 🖥️ The workshop website is live!
 
 &nbsp;
+
+### Thanks
+
+Special thanks to Meta and MLCommons for supporting and sponsoring this workshop.
+
+&nbsp;
