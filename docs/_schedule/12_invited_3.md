@@ -12,14 +12,14 @@ title: Invited Talk III
 subtitle: TBA
 
 # Speaker Info
-speaker: TBA
-# webpage: https://web.stanford.edu/~udell/
-# affil: Stanford University
-# affil_link: https://web.stanford.edu/~udell/
+speaker: Frank E. Curtis
+webpage: https://coral.ise.lehigh.edu/frankecurtis/
+affil: Lehigh University
+affil_link: https://coral.ise.lehigh.edu/frankecurtis/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 
 # Image
-img: ../speakers/avatar.jpg
+img: ../speakers/FrankECurtis.jpg
 # img_link: https://web.stanford.edu/~udell/
 ---
