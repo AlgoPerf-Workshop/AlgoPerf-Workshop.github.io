@@ -7,6 +7,8 @@ title: Home
 layout: home
 ---
 
+<img style="float: right; width: 200px;" src="/assets/img/mlc_lockup_black_green.png" alt="MLCommons logo">
+
 ## AlgoPerf Workshop
 
 > How can we train neural networks faster with better algorithms?
