@@ -19,7 +19,7 @@ layout: default
 			{% for scheduleitem in sorted_schedule %}
 			{% if scheduleitem.day == day %}
 			<tr>
-				<td style="vertical-align: top; white-space: nowrap;">
+				<td style="vertical-align: top; white-space: nowrap; width: 140px;">
 					{{ scheduleitem.time }}
 				</td>
 				<td align="center" style="vertical-align: top;">
@@ -38,7 +38,7 @@ layout: default
 						{% endif %}
 					</div>
 				</td>
-				<td style="vertical-align: top;">
+				<td style="vertical-align: top; width: 25%;">
 					<div class="people-name text-center">
 						<!-- scheduleitem name (link to webpage if provided) -->
 						{% if scheduleitem.webpage %}
@@ -63,7 +63,7 @@ layout: default
 						{% endif %}
 					</div>
 				</td>
-				<td style="text-align: center; vertical-align: top;">
+				<td style="text-align: center; vertical-align: top; width: 100px;">
 					<div class="col-xs-12">
 						{% if scheduleitem.img %}
 						{% if scheduleitem.img_link %}
