@@ -12,14 +12,14 @@ title: "Roundtable Discussion"
 subtitle: A moderated open audience discussion on<br>"Training Algorithms in Production"
 
 # Speaker Info
-speaker: TBA
-# webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+speaker: Michael Rabbat
+webpage: https://ai.meta.com/people/1148536089838617/michael-rabbat/
+affil: Meta AI
+affil_link: https://ai.meta.com/people/1148536089838617/michael-rabbat/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 
 # Image
-img: ../speakers/avatar.jpg
-# img_link: https://ai.meta.com/people/1148536089838617/michael-rabbat/
+img: ../other/mike.jpg
+img_link: https://ai.meta.com/people/1148536089838617/michael-rabbat/
 ---

@@ -11,10 +11,10 @@ time: 16:30 - 17:00
 title: "Closing Remarks"
 
 # Speaker Info
-speaker: Organizers
+speaker: Priya Kasimbeg
 webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+affil: Google DeepMind
+affil_link: https://www.linkedin.com/in/priyakasimbeg/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 

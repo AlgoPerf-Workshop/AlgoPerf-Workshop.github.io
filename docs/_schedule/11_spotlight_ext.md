@@ -8,14 +8,14 @@ day: Tuesday, 11th
 time: 11:15 - 12:00
 
 # Title of the event
-title: "Spotlight Talk I"
-subtitle: External Tuning Track Winner
+title: "Spotlight Talk I: External Tuning Track Winner"
+subtitle: Distributed Shampoo
 
 # Speaker Info
-speaker: Distributed Shampoo<br>Submission Team
-# webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+speaker: Michael Shi
+webpage: https://hjmshi.github.io/
+affil: Meta AI
+affil_link: https://hjmshi.github.io/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 

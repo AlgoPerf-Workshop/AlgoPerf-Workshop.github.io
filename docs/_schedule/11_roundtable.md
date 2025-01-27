@@ -12,14 +12,14 @@ title: "Roundtable Discussion"
 subtitle: A moderated open audience discussion on<br>"The Future of Training Algorithms"
 
 # Speaker Info
-speaker: Michael Rabbat
-# webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+speaker: Frank Schneider
+webpage: /organizers
+affil: University of Tübingen
+affil_link: https://fsschneider.netlify.app/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 
 # Image
-img: ../other/mike.jpg
-img_link: https://ai.meta.com/people/1148536089838617/michael-rabbat/
+img: ../organizers/frank.jpg
+img_link: /organizers
 ---

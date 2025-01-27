@@ -12,7 +12,7 @@ title: "Lightning Talks"
 subtitle: AlgoPerf Submissions & their Follow-Ups
 
 # Speaker Info
-speaker: AlgoPerf Submitters
+speaker: Niccolò Ajroldi<br>David Tweedle<br>Sourabh Medapati
 # webpage: /organizers
 # affil: Buzz University
 # affil_link: https://buzz.edu
@@ -22,4 +22,10 @@ speaker: AlgoPerf Submitters
 # Image
 img: ../organizers/avatar.jpg
 # img_link: /organizers
+
+# Abstract
+abstract: >
+    **Niccolò Ajroldi:** *Weight Averaging Techniques on AlgoPerf*<br>
+    **David Tweedle:** *Applying Randomized Singular Value Decomposition During Training*<br>
+    **Sourabh Medapati:** *TBD*
 ---

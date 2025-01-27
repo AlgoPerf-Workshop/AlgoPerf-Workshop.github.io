@@ -14,22 +14,31 @@ layout: default
 		{% assign days = site.schedule | map: "day" | uniq %}
 		{% for day in days %}
 		<h2>{{ day }}</h2>
-		<table style="width: 100%; margin-left: auto; margin-right: auto;">
+		<table style="width: 100%; margin-left: auto; margin-right: auto; table-layout: fixed; vertical-align: top;">
 			{% assign sorted_schedule = site.schedule | sort: "sequence_id" %}
 			{% for scheduleitem in sorted_schedule %}
 			{% if scheduleitem.day == day %}
 			<tr>
-				<td>
+				<td style="vertical-align: top; white-space: nowrap; width: 40px;">
 					{{ scheduleitem.time }}
 				</td>
-				<td align="center">
+				<td align="center" style="vertical-align: top; width: 45%;">
 					<div class="col-xs-12">
 						<b>{{ scheduleitem.title }}</b>
 						<br>
 						{{scheduleitem.subtitle}}
+						{% if scheduleitem.abstract %}
+						<br>
+						<button class="abstract-toggle" onclick="toggleAbstract('abstract-{{ forloop.index }}')">
+							Show Abstract ▼
+						</button>
+						<div id="abstract-{{ forloop.index }}" class="abstract-content" style="display: none;">
+							{{ scheduleitem.abstract | markdownify }}
+						</div>
+						{% endif %}
 					</div>
 				</td>
-				<td>
+				<td style="vertical-align: top; width: 20%;">
 					<div class="people-name text-center">
 						<!-- scheduleitem name (link to webpage if provided) -->
 						{% if scheduleitem.webpage %}
@@ -54,7 +63,7 @@ layout: default
 						{% endif %}
 					</div>
 				</td>
-				<td style="text-align: center;">
+				<td style="text-align: center; vertical-align: top; width: 20px;">
 					<div class="col-xs-12">
 						{% if scheduleitem.img %}
 						{% if scheduleitem.img_link %}
@@ -80,3 +89,38 @@ layout: default
 	</div>
 
 </article>
+
+<style>
+	.abstract-toggle {
+		background: none;
+		border: none;
+		color: #0366d6;
+		cursor: pointer;
+		padding: 5px;
+		margin: 5px 0;
+		font-size: 0.9em;
+	}
+
+	.abstract-content {
+		text-align: left;
+		padding: 10px;
+		margin: 10px 0;
+		background-color: #f6f8fa;
+		border-radius: 3px;
+		font-size: 0.9em;
+	}
+</style>
+
+<script>
+	function toggleAbstract(id) {
+		const content = document.getElementById(id);
+		const button = content.previousElementSibling;
+		if (content.style.display === "none") {
+			content.style.display = "block";
+			button.innerHTML = "Hide Abstract ▲";
+		} else {
+			content.style.display = "none";
+			button.innerHTML = "Show Abstract ▼";
+		}
+	}
+</script>

@@ -11,14 +11,14 @@ time: 10:15 - 10:30
 title: Opening Remarks
 
 # Speaker Info
-speaker: Organizers
-webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+speaker: David Kanter
+webpage: https://www.linkedin.com/in/kanterd/
+affil: MLCommons
+affil_link: https://www.linkedin.com/in/kanterd/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 
 # Image
-img: ../organizers/george.jpg
-img_link: /organizers
+img: ../other/david.jpg
+img_link: https://www.linkedin.com/in/kanterd/
 ---

@@ -12,10 +12,10 @@ title: "Panel Discussion"
 subtitle: The Future of AlgoPerf
 
 # Speaker Info
-speaker: Organizers
+speaker: George Dahl
 webpage: /organizers
-# affil: Buzz University
-# affil_link: https://buzz.edu
+affil: Google DeepMind
+affil_link: https://research.google/people/104884/
 # affil2: Buzz University
 # affil2_link: https://buzz.edu
 
