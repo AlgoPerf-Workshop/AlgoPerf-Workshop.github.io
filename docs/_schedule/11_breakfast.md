@@ -1,17 +1,18 @@
 ---
 # Determines which item appears first on the schedule (lowest number (0) appears first)
-sequence_id: 8
+sequence_id: 1
 
 day: Tuesday, 11th
 
 # Time of the event
-time: 15:00 - 15:15
+time: 9:00 - 10:10
 
 # Title of the event
-title: "Coffee Break"
+title: Breakfast
+subtitle: Optional breakfast provided by Meta
 
 # Speaker Info
-# speaker: AlgoPerf Submitters
+# speaker: Organizers
 # webpage: /organizers
 # affil: Buzz University
 # affil_link: https://buzz.edu
@@ -19,6 +20,6 @@ title: "Coffee Break"
 # affil2_link: https://buzz.edu
 
 # Image
-# img: ../organizers/avatar.jpg
+# img: ../organizers/frank.jpg
 # img_link: /organizers
 ---

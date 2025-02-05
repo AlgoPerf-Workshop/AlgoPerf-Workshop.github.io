@@ -5,10 +5,10 @@ sequence_id: 0
 day: Tuesday, 11th
 
 # Time of the event
-time: 10:00 - 10:15
+time: 8:45 - 10:00
 
 # Title of the event
-title: Registration
+title: Check-in at Meta Lobby
 
 # Speaker Info
 # speaker: Organizers

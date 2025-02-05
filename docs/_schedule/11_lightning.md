@@ -1,6 +1,6 @@
 ---
 # Determines which item appears first on the schedule (lowest number (0) appears first)
-sequence_id: 6
+sequence_id: 7
 
 day: Tuesday, 11th
 
