@@ -27,5 +27,5 @@ img: ../organizers/avatar.jpg
 abstract: >
     **Niccolò Ajroldi:** *Weight Averaging Techniques on AlgoPerf*<br>
     **David Tweedle:** *Applying Randomized Singular Value Decomposition During Training*<br>
-    **Sourabh Medapati:** *TBD*
+    **Sourabh Medapati:** *Lessons from competing in AlgoPerf v0.5*
 ---
